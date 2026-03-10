@@ -1,12 +1,54 @@
 import React from 'react';
 
 const products = [
-    { id: 1, name: 'MacBook Pro M3', type: 'Laptop', price: 1599, desc: 'Powerful laptop for professionals.', image: '💻' },
-    { id: 2, name: 'Dell XPS 15', type: 'Laptop', price: 1399, desc: 'Sleek design with stunning display.', image: '💻' },
-    { id: 3, name: 'Lenovo ThinkPad X1', type: 'Laptop', price: 1499, desc: 'The ultimate business machine.', image: '💻' },
-    { id: 4, name: 'iPhone 15 Pro', type: 'Mobile', price: 999, desc: 'Titanium design with advanced camera.', image: '📱' },
-    { id: 5, name: 'Samsung Galaxy S24 Ultra', type: 'Mobile', price: 1199, desc: 'AI-powered flagship phone.', image: '📱' },
-    { id: 6, name: 'Google Pixel 8 Pro', type: 'Mobile', price: 899, desc: 'Best-in-class computational photography.', image: '📱' },
+    {
+        id: 1,
+        name: 'MacBook Pro M3',
+        type: 'Laptop',
+        price: 159900,
+        desc: 'Powerful laptop for professionals.',
+        image: '💻'
+    },
+    {
+        id: 2,
+        name: 'Dell XPS 15',
+        type: 'Laptop',
+        price: 189900,
+        desc: 'Sleek design with stunning display.',
+        image: '💻'
+    },
+    {
+        id: 3,
+        name: 'Lenovo ThinkPad X1',
+        type: 'Laptop',
+        price: 174900,
+        desc: 'The ultimate business machine.',
+        image: '💻'
+    },
+    {
+        id: 4,
+        name: 'iPhone 15 Pro',
+        type: 'Mobile',
+        price: 134900,
+        desc: 'Titanium design with advanced camera.',
+        image: '📱'
+    },
+    {
+        id: 5,
+        name: 'Samsung Galaxy S24 Ultra',
+        type: 'Mobile',
+        price: 129999,
+        desc: 'AI-powered flagship phone.',
+        image: '📱'
+    },
+    {
+        id: 6,
+        name: 'Google Pixel 8 Pro',
+        type: 'Mobile',
+        price: 106999,
+        desc: 'Best-in-class computational photography.',
+        image: '📱'
+    },
 ];
 
 function Products({ onAddToCart }) {
